@@ -1,3 +1,47 @@
 body {
-    background-color: rgb(9, 8, 63);
+    background-color: rgb(25, 27, 51);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav {
+    background-color: rgb(137, 139, 206);
+
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    display: block;
+    color: white;
+}
+
+li a {
+    display: block;
+}
+
+li a:hover {
+    background-color: rgb(137, 139, 206);
+}
+
+
+.container {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-start: 3;
+
 }
